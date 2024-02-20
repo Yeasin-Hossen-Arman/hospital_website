@@ -166,5 +166,31 @@ background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 }
 
 
+/* footer section style code start  */
+
+/* footer section start */
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    color: white;
+    margin-top: 6px;
+    background-color: rgb(6, 51, 51);
+
+}
+.text p{
+    margin-top: 12px;
+}
+
+
+/* footer section end */
+
+
+/* footer section style code end */
+
+
+
 
 
