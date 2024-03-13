@@ -3,111 +3,272 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Management System</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap">
+    <title>services</title>
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Dancing+Script:wght@400;500;600&family=Fjalla+One&family=Mogra&family=Smokum&family=Zeyada&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7efa8f7654.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
+    <!-- header section thats means navigation start -->
 
-    <!-- navigation section start-->
-    <nav class="banner">
-        <div class="logo-text">
-            <img class="logo" src="images/hospital.png" alt="">
-            <h3 class="logo-heading">Eastern Hospital</h3>
-        </div>
+    <header>
+        <nav class="banner">
+            <div class="logo-text">
+                <img class="logo" src="images/hospital.png" alt="">
+                <h3 class="logo-heading">Eastern Hospital</h3>
+            </div>
 
-        <div class="nav-text">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="dpt.html">Department</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="admin_page.html">Sign Up</a></li>
-            </ul>
+            <div class="nav-text">
+                <ul>
+                    <li><a href="index.html">Home</a>
+                        <!-- <ul class="dropdown">
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Review</a></li>
+                    </ul>
+                    </li>
+                     -->
+                        <!-- <form >
+                            <select class="new" name="Home" id="">
+                                <option value="Home"><a href="index2.html">Home</a></option>
+                                <option value="About">About</option>
+                                <option value="Blog">Blog</option>
+                                <option value="Review">Review</option>
+                            </select>
+                        </form> -->
+
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="admin_page.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <div class="bg-pic">
+            <h3 class="bg-heading ">Happy to see you healthy</h3>
+            <h1 class="bg-text">Trusted and friendly <br>
+                medical professonal</h1>
+            <button class="btn-primary">Learn more</button>
+        </div> -->
+
+
+    </header>
+
+    <!-- header section thats means navigation end -->
+
+
+    <main>
+        <div class="service-main-section">
+
+            <div class="services-section-img">
+
+                <div class="service-heading">
+                    <h2>We believe the heart of healthcare is service</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugit pariatur blanditiis reprehenderit, quo facere.</p>
+                </div>
+
+            </div>
+
         </div>
-    </nav>
-    <!-- navigation section end-->
-    <!-- services section -->
-    <section id = "services" class = "services">
-        <div class = "container">
-            <div class = "section-head">
-                <h2 class = "lead">The Best Doctor gives the least medicines</h2>
-                <p class = "text text-lg">A perfect way to show your hospital services</p>
+    </main>
+
+    <!-- our service list start -->
+
+    <div class="our-services">
+        <div class="our-service-heading">
+            <h1>Our Services</h1>
+        </div>
+        <ol>
+            <li style="--accent-color:#0D6EFD">
+                <div class="icon"></div>
+                <div class="title">Physical therapy</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+            </li>
+            <li style="--accent-color:#6710F5">
+                <div class="icon"></div>
+                <div class="title">General Surgery</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </li>
+            <li style="--accent-color:#6F42C1">
+                <div class="icon"></div>
+                <div class="title">Diagnosis</div>
+                <div class="descr">Lorem ipsum dolor. Lorem ipsum dolor sit amet.</div>
+            </li>
+            <li style="--accent-color:#D63384">
+                <div class="icon"><i class="fa-solid fa-tooth"></i></div>
+                <div class="title">Dentistry</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laboriosam odio alias.</div>
+            </li>
+            <li style="--accent-color:#DC3545">
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+                <div class="title">Mental Healt Care</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </li>
+
+
+
+            <li style="--accent-color:#6F42C1">
+                <div class="icon"></div>
+                <div class="title">Pediatrics</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+            </li>
+
+            <li style="--accent-color:#DC3545">
+                <div class="icon"></div>
+                <div class="title">Nursing</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+            </li>
+            <li style="--accent-color:#0D6EFD">
+                <div class="icon"></div>
+                <div class="title">Hospital Pharmacist</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+            </li>
+            <li style="--accent-color:#6F42C1">
+                <div class="icon"></div>
+                <div class="title">Hospital System</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+            </li>
+            <li style="--accent-color:#6710F5">
+                <div class="icon"></div>
+                <div class="title">Legal Services</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div>
+            </li>
+        </ol>
+    </div>
+
+    <div class="services-contanier">
+        <div class="services-con-heading">
+            <h1>A True Devotion to Healing</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab maxime eos vel aspernatur et optio consequatur facilis nam voluptatem.</p>
+
+        </div>
+        <div class="services-con">
+            <div class="services-con-card">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h2>24 Hours Emergency</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, lasperiores doloribus ducimus eligendi quibusdam, quisquam, excepturi suscipit minima eos.</p>
+            </div>
+
+            <div class="services-con-card">
+                <i class="fa-solid fa-truck-medical"></i>
+                <h2>Quick Examination</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores doloribus ducimus eligendi quibusdam, quisquam, excepturi suscipit minima eos.</p>
+            </div>
+            <div class="services-con-card">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h2>Child Care</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores doloribus ducimus eligendi quibusdam, quisquam, excepturi suscipit minima eos.</p>
+            </div>
+            <div class="services-con-card">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h2>24 Hours Emergency</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores doloribus ducimus eligendi quibusdam, quisquam, excepturi suscipit minima eos.</p>
+            </div>
+            <div class="services-con-card">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h2>24 Hours Emergency</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores doloribus ducimus eligendi quibusdam, quisquam, excepturi suscipit minima eos.</p>
+            </div>
+            <div class="services-con-card">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h2>24 Hours Emergency</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores doloribus ducimus eligendi quibusdam, quisquam, excepturi suscipit minima eos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="consultation">
+        <div class="consultation-left">
+            <h1>Are you ready for a consultation?</h1>
+            <h4>Your treatment will be performed by licensed therapist. Schedule your appointment now!</h4>
+
+        </div>
+        <div class="consultatiomn-right">
+            <h2>Contact Us Today</h2>
+        </div>
+    </div>
+
+
+    <div class="contanier">
+        <div class="contanier-diag">
+            <h2>Imaging And Diagostic Services</h2>
+        </div>
+        <div class="elements">
+            <div class="element current">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Open MRI</h2>
+
+            </div>
+            <div class="element">
             
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Digital X-Ray</h2>
+
             </div>
-            <div class = "services-inner">
-                <article class = "service-item">
-                    <div class = "icon">
-                        <img src = "./service-icon-1.png" alt="ar">
-                    </div>
-                    <h3>Cardio Monitoring</h3>
-                    <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque mollitia ad animi aspernatur officia ipsum vero iure? Repellat voluptatum perferendis reprehenderit, velit saepe totam nostrum incidunt quasi aperiam dolore alias aliquid minima libero accusamus ad! Hic magnam libero, minima molestias similique culpa consectetur sint cum explicabo vitae vel debitis consequatur!</p>
-                </article>
+            <div class="element">
+                
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Uroflometry</h2>
 
-                <article class = "service-item">
-                    <div class = "icon">
-                        <img src = "./service-icon-2.png" alt="ar">
-                    </div>
-                    <h3>Medical Treatment</h3>
-                    <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores voluptatibus architecto dolor repellat maiores nemo perspiciatis pariatur obcaecati veniam! Quam veniam dolorum reprehenderit. Soluta labore exercitationem saepe nesciunt tenetur. Optio, alias. Optio magnam dolore culpa aliquid ab ut odit recusandae sunt? Placeat at fuga quis laudantium aliquam sapiente enim.</p>
-                </article>
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Spironmetry</h2>
 
-                <article class = "service-item">
-                    <div class = "icon">
-                        <img src = "./service-icon-3.png" alt="ar">
-                    </div>
-                    <h3>Emergency Help</h3>
-                    <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illo laborum quia rem tempora quae asperiores, accusamus eligendi doloremque nam quo ut assumenda tenetur amet ipsa voluptates deleniti sapiente omnis vitae blanditiis! Quaerat, sit harum accusantium, minima incidunt laboriosam dolore porro, maxime neque vitae sunt ipsam tempora explicabo reprehenderit eligendi.</p>
-                </article>
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>ETT</h2>
 
-                <article class = "service-item">
-                    <div class = "icon">
-                        <img src = "./service-icon-4.png" alt="ar">
-                    </div>
-                    <h3>First Aid</h3>
-                    <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos corrupti vitae, sunt quibusdam repellendus sequi expedita, recusandae quae illum dolorum minima architecto, pariatur totam consectetur soluta nostrum harum! Ipsum dolorem nihil distinctio saepe aliquam exercitationem facere libero ad magnam, architecto eaque officia dignissimos nulla veritatis reiciendis voluptas accusantium explicabo ab.</p>
-                </article>
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Endoscopy</h2>
+
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Colonoscopy</h2>
+
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Real Time PCR</h2>
+
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Portable X-Ray</h2>
+
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Endoscopy</h2>
+
+            </div>
+            <div class="element">
+                <i class="fa-solid fa-fire-flame-simple"></i>
+                <h2>Endoscopy</h2>
+
             </div>
         </div>
-    </section>
-    <!-- end of services section -->
+    </div>
 
-    <!-- footer section start -->
-    <footer>
-        <div class="footer">
-          <div class="text">
-            <h3>About Us</h3>
-            <p>24 Hour's</p>
-            <p>Top Doctors</p>
-            <p>Best Care</p>
-            <p>Patient</p>
-          </div>
-          <div class="text">
-            <h3>Speciality</h3>
-            <p>Spin Surgery</p>
-            <p>Knee Surgery</p>
-            <p>Leg Surgery</p>
-            <p>Tendon Surgery</p>
-          </div>
-          <div class="text">
-            <h3>Best Teams</h3>
-            <p>Doctor</p>
-            <p>Nursing</p>
-            <p>Staff</p>
-            <p>Hospital</p>
-          </div>
-          <div class="text">
-            <h3>Address</h3>
-            <p>Anowara</p>
-            <p>city</p>
-            <p>333-00222</p>
-            <p>2222-4334</p>
-          </div>
-        </div>
-      </footer>
-  
-      <!-- footer section end -->
+
+    <!-- footer section start here -->
+
+
+    <!-- foooter section end here -->
+    <script src="script.js"></script>
 </body>
 </html>
