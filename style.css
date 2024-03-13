@@ -4,6 +4,9 @@
     /* overflow-x: hidden; */
 
 }
+body{
+    overflow-x: hidden;
+}
 
 /* ---------home page style design start here */
 /* ------file name is index.html----------- */
